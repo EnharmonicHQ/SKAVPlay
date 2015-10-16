@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB0A625A1BD0CAB800365E47 /* movie2.mov in Resources */ = {isa = PBXBuildFile; fileRef = AB0A62591BD0CAB800365E47 /* movie2.mov */; settings = {ASSET_TAGS = (); }; };
+		AB9054C51BC852EF00E84C84 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9054C41BC852EF00E84C84 /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		ABBCF8EC195384B5000B0CAA /* ENHExtendedSKVideoNode.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBCF8EB195384B5000B0CAA /* ENHExtendedSKVideoNode.m */; };
+		ABEE97041952233100D9E2E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEE97031952233100D9E2E2 /* Foundation.framework */; };
+		ABEE97061952233100D9E2E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEE97051952233100D9E2E2 /* CoreGraphics.framework */; };
+		ABEE97081952233100D9E2E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEE97071952233100D9E2E2 /* UIKit.framework */; };
+		ABEE970A1952233100D9E2E2 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEE97091952233100D9E2E2 /* SpriteKit.framework */; };
+		ABEE97101952233100D9E2E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABEE970E1952233100D9E2E2 /* InfoPlist.strings */; };
+		ABEE97121952233100D9E2E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEE97111952233100D9E2E2 /* main.m */; };
+		ABEE97161952233200D9E2E2 /* ENHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEE97151952233200D9E2E2 /* ENHAppDelegate.m */; };
+		ABEE97191952233200D9E2E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABEE97171952233200D9E2E2 /* Main.storyboard */; };
+		ABEE971C1952233200D9E2E2 /* ENHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEE971B1952233200D9E2E2 /* ENHViewController.m */; };
+		ABEE971F1952233200D9E2E2 /* ENHMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEE971E1952233200D9E2E2 /* ENHMyScene.m */; };
+		ABEE97231952233200D9E2E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABEE97221952233200D9E2E2 /* Images.xcassets */; };
+		ABEE972A1952233200D9E2E2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEE97291952233200D9E2E2 /* XCTest.framework */; };
+		ABEE972B1952233200D9E2E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEE97031952233100D9E2E2 /* Foundation.framework */; };
+		ABEE972C1952233200D9E2E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEE97071952233100D9E2E2 /* UIKit.framework */; };
+		ABEE97341952233200D9E2E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABEE97321952233200D9E2E2 /* InfoPlist.strings */; };
+		ABEE97361952233200D9E2E2 /* SKAVPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEE97351952233200D9E2E2 /* SKAVPlayTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABEE972D1952233200D9E2E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABEE96F81952233100D9E2E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABEE96FF1952233100D9E2E2;
+			remoteInfo = SKAVPlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB0A62591BD0CAB800365E47 /* movie2.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = movie2.mov; sourceTree = "<group>"; };
+		AB9054C41BC852EF00E84C84 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		ABBCF8EA195384B5000B0CAA /* ENHExtendedSKVideoNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENHExtendedSKVideoNode.h; sourceTree = "<group>"; };
+		ABBCF8EB195384B5000B0CAA /* ENHExtendedSKVideoNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENHExtendedSKVideoNode.m; sourceTree = "<group>"; };
+		ABEE97001952233100D9E2E2 /* SKAVPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKAVPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABEE97031952233100D9E2E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABEE97051952233100D9E2E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ABEE97071952233100D9E2E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ABEE97091952233100D9E2E2 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		ABEE970D1952233100D9E2E2 /* SKAVPlay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SKAVPlay-Info.plist"; sourceTree = "<group>"; };
+		ABEE970F1952233100D9E2E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABEE97111952233100D9E2E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABEE97131952233200D9E2E2 /* SKAVPlay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SKAVPlay-Prefix.pch"; sourceTree = "<group>"; };
+		ABEE97141952233200D9E2E2 /* ENHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENHAppDelegate.h; sourceTree = "<group>"; };
+		ABEE97151952233200D9E2E2 /* ENHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENHAppDelegate.m; sourceTree = "<group>"; };
+		ABEE97181952233200D9E2E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABEE971A1952233200D9E2E2 /* ENHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENHViewController.h; sourceTree = "<group>"; };
+		ABEE971B1952233200D9E2E2 /* ENHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENHViewController.m; sourceTree = "<group>"; };
+		ABEE971D1952233200D9E2E2 /* ENHMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENHMyScene.h; sourceTree = "<group>"; };
+		ABEE971E1952233200D9E2E2 /* ENHMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENHMyScene.m; sourceTree = "<group>"; };
+		ABEE97221952233200D9E2E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABEE97281952233200D9E2E2 /* SKAVPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKAVPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABEE97291952233200D9E2E2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ABEE97311952233200D9E2E2 /* SKAVPlayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SKAVPlayTests-Info.plist"; sourceTree = "<group>"; };
+		ABEE97331952233200D9E2E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABEE97351952233200D9E2E2 /* SKAVPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKAVPlayTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABEE96FD1952233100D9E2E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEE97061952233100D9E2E2 /* CoreGraphics.framework in Frameworks */,
+				ABEE97081952233100D9E2E2 /* UIKit.framework in Frameworks */,
+				ABEE970A1952233100D9E2E2 /* SpriteKit.framework in Frameworks */,
+				ABEE97041952233100D9E2E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEE97251952233200D9E2E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEE972A1952233200D9E2E2 /* XCTest.framework in Frameworks */,
+				ABEE972C1952233200D9E2E2 /* UIKit.framework in Frameworks */,
+				ABEE972B1952233200D9E2E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABEE96F71952233100D9E2E2 = {
+			isa = PBXGroup;
+			children = (
+				ABEE970B1952233100D9E2E2 /* SKAVPlay */,
+				ABEE972F1952233200D9E2E2 /* SKAVPlayTests */,
+				ABEE97021952233100D9E2E2 /* Frameworks */,
+				ABEE97011952233100D9E2E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABEE97011952233100D9E2E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABEE97001952233100D9E2E2 /* SKAVPlay.app */,
+				ABEE97281952233200D9E2E2 /* SKAVPlayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABEE97021952233100D9E2E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABEE97031952233100D9E2E2 /* Foundation.framework */,
+				ABEE97051952233100D9E2E2 /* CoreGraphics.framework */,
+				ABEE97071952233100D9E2E2 /* UIKit.framework */,
+				ABEE97091952233100D9E2E2 /* SpriteKit.framework */,
+				ABEE97291952233200D9E2E2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABEE970B1952233100D9E2E2 /* SKAVPlay */ = {
+			isa = PBXGroup;
+			children = (
+				ABEE97141952233200D9E2E2 /* ENHAppDelegate.h */,
+				ABEE97151952233200D9E2E2 /* ENHAppDelegate.m */,
+				ABEE97171952233200D9E2E2 /* Main.storyboard */,
+				AB0A62591BD0CAB800365E47 /* movie2.mov */,
+				ABEE971A1952233200D9E2E2 /* ENHViewController.h */,
+				ABEE971B1952233200D9E2E2 /* ENHViewController.m */,
+				ABBCF8EA195384B5000B0CAA /* ENHExtendedSKVideoNode.h */,
+				ABBCF8EB195384B5000B0CAA /* ENHExtendedSKVideoNode.m */,
+				ABEE971D1952233200D9E2E2 /* ENHMyScene.h */,
+				ABEE971E1952233200D9E2E2 /* ENHMyScene.m */,
+				ABEE97221952233200D9E2E2 /* Images.xcassets */,
+				ABEE970C1952233100D9E2E2 /* Supporting Files */,
+				AB9054C41BC852EF00E84C84 /* Launch Screen.storyboard */,
+			);
+			path = SKAVPlay;
+			sourceTree = "<group>";
+		};
+		ABEE970C1952233100D9E2E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABEE970D1952233100D9E2E2 /* SKAVPlay-Info.plist */,
+				ABEE970E1952233100D9E2E2 /* InfoPlist.strings */,
+				ABEE97111952233100D9E2E2 /* main.m */,
+				ABEE97131952233200D9E2E2 /* SKAVPlay-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABEE972F1952233200D9E2E2 /* SKAVPlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABEE97351952233200D9E2E2 /* SKAVPlayTests.m */,
+				ABEE97301952233200D9E2E2 /* Supporting Files */,
+			);
+			path = SKAVPlayTests;
+			sourceTree = "<group>";
+		};
+		ABEE97301952233200D9E2E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABEE97311952233200D9E2E2 /* SKAVPlayTests-Info.plist */,
+				ABEE97321952233200D9E2E2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABEE96FF1952233100D9E2E2 /* SKAVPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABEE97391952233200D9E2E2 /* Build configuration list for PBXNativeTarget "SKAVPlay" */;
+			buildPhases = (
+				ABEE96FC1952233100D9E2E2 /* Sources */,
+				ABEE96FD1952233100D9E2E2 /* Frameworks */,
+				ABEE96FE1952233100D9E2E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKAVPlay;
+			productName = SKAVPlay;
+			productReference = ABEE97001952233100D9E2E2 /* SKAVPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABEE97271952233200D9E2E2 /* SKAVPlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABEE973C1952233200D9E2E2 /* Build configuration list for PBXNativeTarget "SKAVPlayTests" */;
+			buildPhases = (
+				ABEE97241952233200D9E2E2 /* Sources */,
+				ABEE97251952233200D9E2E2 /* Frameworks */,
+				ABEE97261952233200D9E2E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABEE972E1952233200D9E2E2 /* PBXTargetDependency */,
+			);
+			name = SKAVPlayTests;
+			productName = SKAVPlayTests;
+			productReference = ABEE97281952233200D9E2E2 /* SKAVPlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABEE96F81952233100D9E2E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ENH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jonathan Saggau";
+				TargetAttributes = {
+					ABEE97271952233200D9E2E2 = {
+						TestTargetID = ABEE96FF1952233100D9E2E2;
+					};
+				};
+			};
+			buildConfigurationList = ABEE96FB1952233100D9E2E2 /* Build configuration list for PBXProject "SKAVPlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABEE96F71952233100D9E2E2;
+			productRefGroup = ABEE97011952233100D9E2E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABEE96FF1952233100D9E2E2 /* SKAVPlay */,
+				ABEE97271952233200D9E2E2 /* SKAVPlayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABEE96FE1952233100D9E2E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEE97101952233100D9E2E2 /* InfoPlist.strings in Resources */,
+				AB0A625A1BD0CAB800365E47 /* movie2.mov in Resources */,
+				ABEE97231952233200D9E2E2 /* Images.xcassets in Resources */,
+				AB9054C51BC852EF00E84C84 /* Launch Screen.storyboard in Resources */,
+				ABEE97191952233200D9E2E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEE97261952233200D9E2E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEE97341952233200D9E2E2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABEE96FC1952233100D9E2E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBCF8EC195384B5000B0CAA /* ENHExtendedSKVideoNode.m in Sources */,
+				ABEE97161952233200D9E2E2 /* ENHAppDelegate.m in Sources */,
+				ABEE97121952233100D9E2E2 /* main.m in Sources */,
+				ABEE971F1952233200D9E2E2 /* ENHMyScene.m in Sources */,
+				ABEE971C1952233200D9E2E2 /* ENHViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEE97241952233200D9E2E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEE97361952233200D9E2E2 /* SKAVPlayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABEE972E1952233200D9E2E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABEE96FF1952233100D9E2E2 /* SKAVPlay */;
+			targetProxy = ABEE972D1952233200D9E2E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABEE970E1952233100D9E2E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABEE970F1952233100D9E2E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ABEE97171952233200D9E2E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABEE97181952233200D9E2E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABEE97321952233200D9E2E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABEE97331952233200D9E2E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABEE97371952233200D9E2E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		ABEE97381952233200D9E2E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABEE973A1952233200D9E2E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SKAVPlay/SKAVPlay-Prefix.pch";
+				INFOPLIST_FILE = "SKAVPlay/SKAVPlay-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABEE973B1952233200D9E2E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SKAVPlay/SKAVPlay-Prefix.pch";
+				INFOPLIST_FILE = "SKAVPlay/SKAVPlay-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ABEE973D1952233200D9E2E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SKAVPlay.app/SKAVPlay";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SKAVPlay/SKAVPlay-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SKAVPlayTests/SKAVPlayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ABEE973E1952233200D9E2E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SKAVPlay.app/SKAVPlay";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SKAVPlay/SKAVPlay-Prefix.pch";
+				INFOPLIST_FILE = "SKAVPlayTests/SKAVPlayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABEE96FB1952233100D9E2E2 /* Build configuration list for PBXProject "SKAVPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABEE97371952233200D9E2E2 /* Debug */,
+				ABEE97381952233200D9E2E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABEE97391952233200D9E2E2 /* Build configuration list for PBXNativeTarget "SKAVPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABEE973A1952233200D9E2E2 /* Debug */,
+				ABEE973B1952233200D9E2E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABEE973C1952233200D9E2E2 /* Build configuration list for PBXNativeTarget "SKAVPlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABEE973D1952233200D9E2E2 /* Debug */,
+				ABEE973E1952233200D9E2E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABEE96F81952233100D9E2E2 /* Project object */;
+}

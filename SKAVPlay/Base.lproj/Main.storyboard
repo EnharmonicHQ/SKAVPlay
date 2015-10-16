@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BV1-FR-VrT">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="ENHViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TvN-0d-DFh"/>
+                        <viewControllerLayoutGuide type="bottom" id="aVg-JY-jeM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3se-qz-xqx" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="avN-xi-yIR">
+                                <rect key="frame" x="369" y="969" width="30" height="35"/>
+                                <animations/>
+                                <state key="normal" title="Play">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playButtonTapped:" destination="BV1-FR-VrT" eventType="touchUpInside" id="Nvy-I8-gvG"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="3Qd-7X-cW3">
+                                <rect key="frame" x="225" y="931" width="318" height="31"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="topSliderSlid:" destination="BV1-FR-VrT" eventType="valueChanged" id="DJ8-lx-NSu"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spd: 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZxL-8m-SUk">
+                                <rect key="frame" x="549" y="931" width="199" height="29.5"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ea-I5-cnh">
+                                <rect key="frame" x="20" y="931" width="199" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="199" id="Ej3-pH-qYe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZxL-8m-SUk" firstAttribute="bottom" secondItem="3Qd-7X-cW3" secondAttribute="bottom" id="GVc-Bp-J7j"/>
+                            <constraint firstItem="6ea-I5-cnh" firstAttribute="leading" secondItem="3se-qz-xqx" secondAttribute="leadingMargin" id="Mmc-GK-dcK"/>
+                            <constraint firstItem="ZxL-8m-SUk" firstAttribute="bottom" secondItem="6ea-I5-cnh" secondAttribute="bottom" id="OqF-7d-OLa"/>
+                            <constraint firstAttribute="bottom" secondItem="avN-xi-yIR" secondAttribute="bottom" constant="20" symbolic="YES" id="Pjn-Oh-k8q"/>
+                            <constraint firstItem="ZxL-8m-SUk" firstAttribute="top" secondItem="6ea-I5-cnh" secondAttribute="top" id="S4O-bn-VlH"/>
+                            <constraint firstItem="ZxL-8m-SUk" firstAttribute="leading" secondItem="3Qd-7X-cW3" secondAttribute="trailing" constant="8" symbolic="YES" id="XbB-LY-Sx0"/>
+                            <constraint firstItem="avN-xi-yIR" firstAttribute="centerX" secondItem="3se-qz-xqx" secondAttribute="centerX" id="Zmy-v8-5Tc"/>
+                            <constraint firstItem="6ea-I5-cnh" firstAttribute="centerY" secondItem="3Qd-7X-cW3" secondAttribute="centerY" id="amz-Ph-ozd"/>
+                            <constraint firstItem="avN-xi-yIR" firstAttribute="centerX" secondItem="3Qd-7X-cW3" secondAttribute="centerX" id="j7V-Fy-AZ5"/>
+                            <constraint firstItem="aVg-JY-jeM" firstAttribute="top" secondItem="6ea-I5-cnh" secondAttribute="bottom" constant="63" id="jyu-Gd-jTB"/>
+                            <constraint firstItem="avN-xi-yIR" firstAttribute="top" secondItem="3Qd-7X-cW3" secondAttribute="bottom" constant="8" symbolic="YES" id="lSL-gC-eFG"/>
+                            <constraint firstItem="3Qd-7X-cW3" firstAttribute="leading" secondItem="6ea-I5-cnh" secondAttribute="trailing" constant="8" symbolic="YES" id="lyY-J5-gL8"/>
+                            <constraint firstItem="ZxL-8m-SUk" firstAttribute="trailing" secondItem="3se-qz-xqx" secondAttribute="trailingMargin" id="o1L-yf-N2N"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="playPauseButton" destination="avN-xi-yIR" id="Kb1-9L-Kyk"/>
+                        <outlet property="positionLabel" destination="6ea-I5-cnh" id="a1h-dN-q2d"/>
+                        <outlet property="positionSlider" destination="3Qd-7X-cW3" id="ygG-v7-uOn"/>
+                        <outlet property="speedLabel" destination="ZxL-8m-SUk" id="FAD-fc-3dU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="249" y="482"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <nil key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
