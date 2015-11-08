@@ -42,6 +42,29 @@
     [self.playPauseButton setTitle:@"(Not ready)" forState:UIControlStateDisabled];
     [self.playPauseButton setEnabled:scene.videoNode.readyToPlay];
     [self topSliderSlid:self.positionSlider];
+
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(threeFingerTap:)];
+    [tap setNumberOfTouchesRequired:3];
+    [self.view addGestureRecognizer:tap];
+}
+
+-(void)threeFingerTap:(UITapGestureRecognizer *)gestureRecognizer
+{
+    if (gestureRecognizer.state == UIGestureRecognizerStateRecognized)
+    {
+        SKView *view = (id)self.view;
+        ENHMyScene *scene = (id)view.scene;
+        ENHExtendedSKVideoNode *videoNode = scene.videoNode;
+        if (![videoNode actionForKey:@"spinny"])
+        {
+            SKAction *scaleAction = [SKAction scaleBy:0.25 duration:2.0];
+            SKAction *spinAction = [SKAction rotateByAngle:2*M_PI duration:2.0];
+            SKAction *group = [SKAction group:@[scaleAction, spinAction]];
+            SKAction *reverse = [group reversedAction];
+            SKAction *sequence = [SKAction sequence:@[group, reverse]];
+            [videoNode runAction:sequence withKey:@"spinny"];
+        }
+    }
 }
 
 - (BOOL)shouldAutorotate
