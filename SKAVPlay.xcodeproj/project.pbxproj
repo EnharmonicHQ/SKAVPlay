@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB0A625A1BD0CAB800365E47 /* movie2.mov in Resources */ = {isa = PBXBuildFile; fileRef = AB0A62591BD0CAB800365E47 /* movie2.mov */; settings = {ASSET_TAGS = (); }; };
-		AB9054C51BC852EF00E84C84 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9054C41BC852EF00E84C84 /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		AB0A625A1BD0CAB800365E47 /* movie2.mov in Resources */ = {isa = PBXBuildFile; fileRef = AB0A62591BD0CAB800365E47 /* movie2.mov */; };
+		AB9054C51BC852EF00E84C84 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9054C41BC852EF00E84C84 /* Launch Screen.storyboard */; };
 		ABBCF8EC195384B5000B0CAA /* ENHExtendedSKVideoNode.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBCF8EB195384B5000B0CAA /* ENHExtendedSKVideoNode.m */; };
 		ABEE97041952233100D9E2E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEE97031952233100D9E2E2 /* Foundation.framework */; };
 		ABEE97061952233100D9E2E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEE97051952233100D9E2E2 /* CoreGraphics.framework */; };
@@ -217,7 +217,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = ENH;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Jonathan Saggau";
 				TargetAttributes = {
 					ABEE97271952233200D9E2E2 = {
@@ -344,6 +344,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -406,6 +407,7 @@
 				GCC_PREFIX_HEADER = "SKAVPlay/SKAVPlay-Prefix.pch";
 				INFOPLIST_FILE = "SKAVPlay/SKAVPlay-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enharmonichq.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -420,6 +422,7 @@
 				GCC_PREFIX_HEADER = "SKAVPlay/SKAVPlay-Prefix.pch";
 				INFOPLIST_FILE = "SKAVPlay/SKAVPlay-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enharmonichq.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -442,6 +445,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "SKAVPlayTests/SKAVPlayTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enharmonichq.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -460,6 +464,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SKAVPlay/SKAVPlay-Prefix.pch";
 				INFOPLIST_FILE = "SKAVPlayTests/SKAVPlayTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enharmonichq.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
